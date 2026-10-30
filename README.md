@@ -70,6 +70,13 @@ Este proyecto **no es un reto ya resuelto** por las siguientes razones:
 | **Fase 1** | **Imagen Aplanada (Tabular)** | Extracción de 12 características de color (RGB / HSV) y entrenamiento del modelo base. | Activa 🚀 |
 | **Fase 2** | **Imagen Cruda + Serie Temporal** | Procesamiento por red neuronal convolucional (CNN) fusionada con datos climáticos agregados de *NASA POWER*. | Planificada ⏳ |
 
+### 📂 Documentación y Datos Adjuntos
+
+| Archivo | Descripción | Enlace de Consulta |
+| :--- | :--- | :--- |
+| **Propuesta de Datos Centinela Fase 1** | Documento técnico con el planteamiento y alcance del proyecto. | [📄 Ver PDF](./documentos/Propuesta_de_Datos_Centinela_Fase1.pdf) |
+| **Dataset Centinela** | Archivo de datos con las características calculadas del proyecto. | [📊 Descargar CSV](./documentos/dataset_centinela.csv) |
+
 ---
 
 ## ⚖️ 5. Riesgos Éticos, Limitaciones y Mitigación
@@ -80,3 +87,4 @@ Este proyecto **no es un reto ya resuelto** por las siguientes razones:
 * **Alineación Imagen ↔ Clima (Fase 2):** El registro climático se integrará de forma agregada por región y periodo temporal, no de manera individualizada por hoja (una hoja no posee su propio microclima). Esta limitación se declara de forma transparente desde el inicio del diseño.
 * **Datos Personales:** El dataset es completamente anónimo; no se gestiona ninguna información sensible de individuos.
 * **Marco Regulatorio:** El desarrollo se fundamenta bajo los principios del *Marco ético para la IA en Colombia* (Guío Español et al., 2021). El sistema se concibe estrictamente como una **herramienta de apoyo a la decisión humana**, garantizando que el control final permanezca siempre en manos del caficultor y no en una automatización autónoma.
+
