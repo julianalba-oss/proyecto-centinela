@@ -1,4 +1,4 @@
-# proyecto-centinela
+# Proyecto-centinela
 El Proyecto Centinela es un sistema de alerta temprana
 # ☕ Proyecto Centinela: Propuesta de Datos
 **Maestría en Ciencia de Datos**  
