@@ -97,7 +97,9 @@ Para esta primera etapa, la modalidad de **imagen se aplanó hacia una estructur
 | **Propuesta Técnica (PDF)** | Documento formal con el planteamiento, alcance y metodología de la Fase 1. | [📄 Ver PDF](./documentos/Propuesta_de_Datos_Centinela_Fase1.pdf) |
 | **Dataset Procesado (CSV)** | Matriz tabular con las 12 características de color calculadas y etiquetas binarias. | [📊 Descargar CSV](./documentos/dataset_centinela.csv) |
 | **Paquete Completo Fase 1 (ZIP)** | Datos tabulares, partición depurada (`particion_semilla42_v2.csv`), informe técnico-ético y bitácora de IA. | [📦 Descargar Fase 1](./documentos/Centinela_Fase1.zip) |
-| **Paquete Completo Fase 2 (ZIP)** | Experimentos CNN (ResNet50, EfficientNet-B0, Grad-CAM), series climáticas, fusión multimodal y reportes. | [📦 Descargar Fase 2](./documentos/Centinela_Fase2.zip) |
+| **Fase 2 (ZIP) - (notebook ejecutado en Colab - Informe Técnico - Bitácora de IA)** | Experimentos CNN (ResNet50, EfficientNet-B0, Grad-CAM), series climáticas, fusión multimodal y reportes. | [📦 Descargar Fase 2](./documentos/Centinela_Fase2.zip) |
+| **Fase 2 — Carpeta Figuras** | Gráficas de entrenamiento, curvas ROC/PR, matrices de confusión y mapas de calor Grad-CAM. | [🖼️ Ver Figuras (OneDrive)](PEGA_AQUI_ENLACE_FIGURAS) |
+| **Fase 2 — Carpeta Pesos** | Modelos entrenados y *checkpoints* serializados (CNN, GRU y arquitectura de fusión multimodal). | [⚖️ Descargar Pesos (OneDrive)](PEGA_AQUI_ENLACE_PESOS) |
 
 ```text
 Proyecto-centinela/
